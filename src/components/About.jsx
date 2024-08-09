@@ -46,7 +46,7 @@ function About() {
       <div className={introAboutWrapper}>
         <div className={introWrapper}>
           <h1 className={hiStyle}> Hi, I am</h1>
-          <h1 className={nameStyle}>Tushar Satalingol</h1>
+          <h1 className={nameStyle}>{Bio.name}</h1>
           <div className={typedWrapper}>
             <span className={aStyle}>a</span>
             <ReactTyped

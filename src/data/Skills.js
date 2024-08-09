@@ -56,7 +56,7 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
-        id: 2.3,
+        id: 2.4,
         name: "MySQL",
         image:
           "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/1280px-MySQL_logo.svg.png",
@@ -65,26 +65,38 @@ export const skills = [
   },
 
   {
-    id: 5,
+    id: 3,
     title: "Version Control & Deployment",
     skill: [
       {
-        id: 5.1,
+        id: 3.1,
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
       {
-        id: 5.2,
+        id: 3.2,
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
-        id: 5.3,
+        id: 3.3,
         name: "Render",
         image:
           "https://global.discourse-cdn.com/business6/uploads/render/original/2X/1/11352202c8503f736bea5efb59684f678d7c860c.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Languages",
+    skill: [
+      {
+        id: 4.1,
+        name: "Java",
+        image:
+          "https://imgs.search.brave.com/a3Cl27Azg-8_pItKePdRS4dnG4EovBZUh5F1xVmbcyI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9qYXZhLWlj/b24tNzU2eDEwMjQt/c2kxY2Q2cXgucG5n",
       },
     ],
   },
