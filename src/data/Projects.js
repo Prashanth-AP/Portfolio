@@ -1,6 +1,7 @@
 import Wanderer from "../assets/Wanderer.png";
 import Stone_paper from "../assets/Stone-paper.png";
 import Amazon_clone from "../assets/Amazon-clone.png";
+import password_gen from "../assets/password_generator.png";
 
 export const projects = [
   {
@@ -21,7 +22,17 @@ export const projects = [
     github: "https://github.com/Tushar00018/Wanderer",
   },
   {
-    id: 1,
+    id: 2,
+    img: password_gen,
+    skills: ["React.js", "JavaScript", "CSS"],
+    title: "Password-Generator",
+    desc: "Developed a React-based password generator with customizable options, efficient performance, and user-friendly UI controls.",
+    live: "https://password-generator-five-theta.vercel.app/",
+    github: "https://github.com/Tushar00018/Password-Generator",
+  },
+
+  {
+    id: 2,
     img: Amazon_clone,
     skills: ["HTML", "CSS"],
     title: "Amazon-Clone",
@@ -31,7 +42,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     img: Stone_paper,
     skills: ["HTML", "CSS", "JavaScript"],
     title: "Stone-Paper",

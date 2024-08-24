@@ -76,9 +76,9 @@ export const skills = [
       },
       {
         id: 3.2,
-        name: "Netlify",
+        name: "Vercel",
         image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+          "https://imgs.search.brave.com/BNSQrXn2bmeJXUV454rdF3_0T8nAzszmcKdxq9LZbwQ/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDQ5YzljMTg4/MmJjMjJkYzEzMWZi/YmYyODM3ZjEyYzEw/MjY5OWFlM2I5YTY1/YmZhNTJlY2EwM2Iz/N2RhMWIxOC92ZXJj/ZWwuY29tLw",
       },
       {
         id: 3.3,
