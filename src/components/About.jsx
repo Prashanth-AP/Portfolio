@@ -1,13 +1,13 @@
-import pfp from "../assets/pfp.jpg";
 import { ReactTyped } from "react-typed";
 import { FaEye, FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Bio } from "../data/Bio";
+import profile from "../assets/profile.png"
 
 const container =
   "bg-gradient-to-b from-slate-950 to-slate-900 text-gray-100 text-xl p-4 lg:px-24 lg:py-20 flex flex-col md:flex-row-reverse gap-6 justify-center items-center";
 const imgWrapper =
-  "relative flex-1 flex justify-center items-center h-96 w-90 "; // Added relative class
+  "relative flex-1 flex justify-center items-center h-96 w-10 "; // Added relative class
 const imgStyle =
   "rounded-full border border-lime-800 hover:border-lime-500 duration-500 transform hover:scale-125  ";
 const glowingBg =
@@ -37,7 +37,7 @@ function About() {
         <div className={glowingBg}></div>
         <img
           className={imgStyle}
-          src={pfp}
+          src={profile}
           alt={"myImage"}
           height={"300px"}
           width={"300px"}
@@ -56,7 +56,7 @@ function About() {
               typeSpeed={80}
               backDelay={2000}
               backSpeed={40}
-              loop={true}
+              loop={false}
             />
           </div>
         </div>
@@ -65,9 +65,7 @@ function About() {
           <button className={btnStyle}>
             <a
               className={linkStyle}
-              href={
-                "https://drive.google.com/file/d/1aVJWh651kubcTYyo2oLzwT72Y6kI_e8z/view?usp=drivesdk"
-              }
+              href={Bio.resume}
               target="_blank"
               rel="noopener noreferrer"
             >

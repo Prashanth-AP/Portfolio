@@ -20,12 +20,6 @@ function Contact() {
     message: "",
   });
 
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   setData({ from_name: "", from_email: "", message: "" });
-  //   alert("Message sent Succesfully");
-  // };
-
   const handleChange = (event) => {
     setData((prev) => {
       return {
@@ -35,7 +29,7 @@ function Contact() {
     });
   };
 
-  const service_id = import.meta.env.VITE_MY_SERVICE_ID;
+  const service_id = import.meta.env.VITE_MY_SERVICE_ID;  
   const template_id = import.meta.env.VITE_MY_TEMPLATE_ID;
   const publicKey = import.meta.env.VITE_MY_PUBLIC_KEY;
 

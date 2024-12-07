@@ -1,63 +1,30 @@
-import Wanderer from "../assets/Wanderer.png";
-import Stone_paper from "../assets/Stone-paper.png";
-import Amazon_clone from "../assets/Amazon-clone.png";
-import password_gen from "../assets/password_generator.png";
-import weather from "../assets/weather.png";
+import DiamondPrice from "../assets/diamondPrice.png"
+import TextSummarization from "../assets/textSummarization.png"
 
 export const projects = [
   {
     id: 0,
-    img: Wanderer,
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootstrap",
-      "NodeJS",
-      "ExpressJS",
-      "MongoDB",
-    ],
-    title: "Wanderer",
-    desc: "Wanderlust is a full-stack Airbnb-like app for listing and booking accommodations, featuring user authentication, advanced search, and responsive design, deployed on Render.",
-    live: "https://wanderer-hp0k.onrender.com/listings/",
-    github: "https://github.com/Tushar00018/Wanderer",
+    img: DiamondPrice,
+    skills: [],
+    title: "Diamond Price prediction",
+    desc: "Regression problem statement, Collected the data by performing web scrapping, performed feature engineering, feature selection, hyperparameter tuning, exploratory data analysis, Compared the results given by various Machine Learning models.",
+    github: "https://github.com/Prashanth-AP/diamondpriceprediction1.git",
   },
   {
     id: 1,
-    img: password_gen,
-    skills: ["React.js", "JavaScript", "CSS"],
-    title: "Password-Generator",
-    desc: "Developed a React-based password generator with customizable options, efficient performance, and user-friendly UI controls.",
-    live: "https://password-generator-five-theta.vercel.app/",
-    github: "https://github.com/Tushar00018/Password-Generator",
+    img: "https://github.com/Prashanth-AP/Images/blob/main/Screenshot%202024-11-20%20200440.png?raw=true",
+    img2: "https://github.com/Prashanth-AP/Images/blob/main/Screenshot%202024-11-20%20203358.png?raw=true",
+    skills: [],
+    title: "Chicken Disease Classification Project",
+    desc: ": Deep Learning classification problem statement where aim of this project is to develop a robust and efficient classification model that can assist poultry farmers and veterinarians in identifying a parasitic disease by classify fecal images of chickens as either indicative of coccidiosis infection or healthy.",
+    github: "https://github.com/Prashanth-AP/chicken-disease-classification.git",
   },
   {
     id: 2,
-    img: weather,
-    skills: ["React.js", "CSS"],
-    title: "Weather-report",
-    desc: "Built a real-time weather report app in React with responsive design, API integration, and effective error handling.",
-    live: "https://weather-report-sandy-iota.vercel.app/",
-    github: "https://github.com/Tushar00018/Weather-report",
-  },
-
-  {
-    id: 3,
-    img: Amazon_clone,
-    skills: ["HTML", "CSS"],
-    title: "Amazon-Clone",
-    desc: "The Amazon clone is a static website built with HTML and CSS, replicating the front-end interface of Amazon, deployed on Netlify.",
-    live: "https://amazondummy0.netlify.app",
-    github: "https://github.com/Tushar00018/Amazon-Clone",
-  },
-
-  {
-    id: 4,
-    img: Stone_paper,
-    skills: ["HTML", "CSS", "JavaScript"],
-    title: "Stone-Paper",
-    desc: "The Stones-Paper-Scissors game is a simple web-based version of the classic game, built with HTML, CSS, and JavaScript, and deployed on Netlify.",
-    live: "https://stones-paper-scissor.netlify.app",
-    github: "https://github.com/Tushar00018/Stone-Paper-Scissor",
-  },
+    img: TextSummarization,
+    skills: [],
+    title: "Text Summarization Project",
+    desc: "Developed an end-to-end NLP project on text summarization. Collected data from Hugging Face, performed data ingestion, validation, and transformation.",
+    github: "https://github.com/Prashanth-AP/text-summarizer-project.git",
+  }
 ];

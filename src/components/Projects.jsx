@@ -33,6 +33,11 @@ function Projects() {
                       className={projectImgStyle}
                       src={item.img}
                       alt="" />
+                   {item.img2 && <img
+                      style={{marginTop:'20px'}}
+                      className={projectImgStyle}
+                      src={item.img2}
+                      alt="" />}
                   </div>
                   <div className={skillWrapper}>
                     {
@@ -47,7 +52,7 @@ function Projects() {
                   </div>
                   <div className=''>  {item.desc}  </div>
                   <div className={btnWrapper}>
-                    <button className={btnSytle}> <a href={item.live} target='_blank'>Live Demo </a></button>
+                    {/* <button className={btnSytle}> <a href={item.live} target='_blank'>Live Demo </a></button> */}
                     <button className={btnSytle}> <a href={item.github} target='_blank'>Github Repo</a></button>
                   </div>
                 </div>
