@@ -2,7 +2,7 @@ import { ReactTyped } from "react-typed";
 import { FaEye, FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Bio } from "../data/Bio";
-import profile from "../assets/profile.png"
+import profile from "../assets/Profile.png"
 
 const container =
   "bg-gradient-to-b from-slate-950 to-slate-900 text-gray-100 text-xl p-4 lg:px-24 lg:py-20 flex flex-col md:flex-row-reverse gap-6 justify-center items-center";
